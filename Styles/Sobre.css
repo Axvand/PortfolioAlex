@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@100&display=swap');
+/* font-family: 'Yantramanav', sans-serif; */
+
+.bigBoxContent{
+    width: 100%;
+    animation:square-in-hesitate;
+    animation-duration: 2s;
+    background: linear-gradient(to right, rgb(10, 10, 10), rgb(10, 10, 10), black);
+}
+.sobreSection{
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.sobreInfo{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    max-width: 500px;
+    line-height: 28px;
+    color: rgb(224, 224, 224);
+    text-align: center;
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: bold;
+    font-size: 1.1em;
+    animation: fadeInUp;
+    animation-duration: 1.3s;
+    letter-spacing: 1px;
+    padding:0px 10px;
+}
+.sobreImg{
+    margin-bottom: 10px;
+    height: 400px;
+    width:320px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sobreImg::after{
+    border: 2px solid red;
+    height: 200px;
+    width: 200px;
+}

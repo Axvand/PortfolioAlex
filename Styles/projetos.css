@@ -1,0 +1,47 @@
+
+.boxTextProject{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.boxProject{
+    max-width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.Project{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(206, 209, 0);
+    margin: 4px;
+    transition: 400ms;
+}
+.Project:hover{
+    background-color: rgb(173, 185, 4);
+}
+.textProject{
+    height:390px;
+    max-width: 500px;
+    color: rgb(224, 224, 224);
+    text-align: center;
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: bold;
+    font-size: 1.1em;
+    letter-spacing: 1.2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 24px;
+}
+@media only screen and (max-width: 705px) {
+    .Project{
+        width: 120px;
+        height: 110px;
+        margin: 5px 5px;
+    }
+}

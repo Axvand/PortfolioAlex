@@ -1,0 +1,76 @@
+.skillSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+}
+.skillText{
+    display: flex;
+    justify-content: space-around;
+    color: rgb(224, 224, 224);
+    text-align: center;
+    font-family: 'Yantramanav', sans-serif;
+    height: 160px;
+}
+.boxSkillsIcons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.boxIcon{
+   height: 120px;
+   width: 120px;
+   margin-bottom: 5px;
+   margin-left: 4px;
+   margin-right: 4px;
+   background-color: rgb(206, 209, 0);
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.boxIcon:hover{
+    background-color: rgb(173, 185, 4);
+}
+.titleSkill{
+    max-width: 500px; 
+    color: white;
+    line-height: 28px;
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: bold;
+    text-indent: 20px;
+    text-align: center;
+    
+}
+.descriptionSkills{
+    line-height: 28px;
+    color: rgb(224, 224, 224);
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin: 10px;
+    max-width: 500px; color: white;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+
+
+@media only screen and (max-width: 705px) {
+    .skillText>p{
+        color: white; 
+        columns: 100px 1; 
+        max-width: 800px; 
+        text-align: center;
+    }
+    .boxIcon{
+        height: 110px;
+        width: 120px;
+        margin: 5px 5px;
+        
+    }
+}

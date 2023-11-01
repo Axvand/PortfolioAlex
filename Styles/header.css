@@ -1,0 +1,57 @@
+body{
+    background: rgb(0, 0, 0);
+    margin: 0px;
+    padding: 0px 1px 1px 1px;
+    height: 1000px;
+}
+.titles{
+  background-color: black;
+  padding:40px 2px 2px 2px ;
+}
+.textInfoSection{
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    font-weight: lighter;
+    font-size: 2.4em;
+    animation: square-in-hesitate;
+    animation-duration: 3s;
+    background-color: rgb(0, 0, 0);
+    padding: 0px 10px 6px 20px;
+    
+}
+
+.headerSection{
+  height: 550px;
+  /* background: linear-gradient(to right, rgb(10, 10, 10),black, black); */
+  background-image: url('../imgs/rainy-21\(!\).gif') ;
+  animation-duration: 2s;
+  padding: 10px;
+}
+
+.textHeader{
+  font-family: 'Quicksand', sans-serif;
+  margin-top: 60px;
+  
+}
+
+@keyframes square-in-hesitate {
+    0% {
+      clip-path: inset(100% 100% 100% 100%);
+    }
+    40% {
+      clip-path: inset(33% 33% 33% 33%);
+    }
+    100% {
+      clip-path: inset(0 0 0 0);
+    }
+  }
+  
+  [transition-style="in:square:hesitate"] {
+    animation: 2.5s cubic-bezier(.25, 1, .30, 1) square-in-hesitate both;
+  }
+/* 
+  <div class="textHeader">
+  <h2>Portfólio</h2>
+  <h1>Desenvolvedor Front-End</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+</div> */
