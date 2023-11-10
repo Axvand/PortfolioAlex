@@ -3,8 +3,6 @@
 
 .bigBoxContent{
     width: 100%;
-    animation:square-in-hesitate;
-    animation-duration: 2s;
     background: linear-gradient(to right, rgb(10, 10, 10), rgb(10, 10, 10), black);
 }
 .sobreSection{

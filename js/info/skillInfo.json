@@ -1,0 +1,52 @@
+{
+    "infoSkill" : 
+    [
+        {
+            "id": 1,
+            "nome":"HTML5",
+             "text":"Tenho conhecimento sólido de HTML5. Nenhuma dificuldade para aprender novas tags ou recursos."
+        },
+        {
+            "id": 2,
+            "nome":"CSS3",
+             "text":"Tenho conhecimento sólido de CSS3. Consigo construir interfaces e reproduzir modelos ja existentes. Nenhuma dificuldade em aprender novos conceitos e utilizar frameworks ou libs relacionadas"
+        },
+       
+        {
+            "id": 3,
+            "nome":"Javascript",
+             "text":"Tenho conhecimento sólido de javascript. Sem nenhuma dificuldade para aprender novos conceitos, estou em constante estudo e aprimoramento da minha lógica utilizando a linguagem. É um trabalho de longo prazo ser um especialista na linguagem, mas é o que pretendo me tornar"
+        },
+       
+        {    
+            "id": 4,
+            "nome":"BOOTSTRAP",
+            "text":"Conhecimento em aprimoramento.  Já construi aplicações com bootstrap apesar de ser uma otima lib acredito que, pra quem está começando, ela atrapalha no treinamento e à longo prazo, também pode atrapalhar o desempenho do aprendizado de microprocessadores de CSS. Mas é uma ótima alternativa pra padronização de elementos e layouts."
+            
+        },
+       
+        {
+           "id": 5,
+            "nome": "Git",
+             "text":"Conhecimento em aprimoramento, apesar de estudar como tudo funciona algumas situações são impossiveis de serem simuladas, mas estou 100% preparado para essas situações."
+        },
+       
+        {
+            "id": 6,
+            "nome":"React",
+             "text":"Introdução ao React.js. Em constante treinamento. Aprendendo e aprimorando meus conhecimentos em manipulação de componentes, Hooks, compartilhamento de variáveis entre componenetes, APIs do react e mais."
+        },
+       
+        {
+            "id": 7,
+            "nome":"Designs Responsivos.",
+             "text":"Ao meu ver uma skill fundamental(Talvez a mais fundamental), utilizo os media-querys para a responsividade e sou capaz de fazer todo tipo de ajuste que for necessário para melhor experiência do cliente em qualquer device."
+        },
+       
+        {
+            "id": 8,
+            "nome":"eeee",
+             "text":"eeeeeeee"
+        }
+    ]
+}
