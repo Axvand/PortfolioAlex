@@ -4,13 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />-->
     <link rel="stylesheet" href="./Styles/Sobre.css" />
     <link rel="stylesheet" href="./Styles/header.css" />
     <link rel="stylesheet" href="./Styles/nav.css" />
     <link rel="stylesheet" href="./Styles/projetos.css" />
     <link rel="stylesheet" href="Styles/skill.css" />
     <link rel="stylesheet" href="Styles/footer.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <title>AX_Portfólio</title>
 </head>
 
@@ -26,40 +28,46 @@
 
         </div>
     </nav>
-    <header class="headerSection"  id="nav"
-        style="color: aliceblue; display: flex; justify-content: space-evenly; align-items: center; flex-direction: column;">
-        <div class="textHeader">
+    <header class="headerSection" id="nav"
+        style="color: rgb(253, 252, 252); display: flex; justify-content: space-evenly; align-items: center;flex-direction: column;">
+        <div class="textHeader" data-aos="fade-right"  data-aos-duration="1500">
             <h2>Front-End Developer</h2>
             <h1>Alex Rocha</h1>
             <p>Obrigado pela visita. Fique a vontade!</p>
         </div>
     </header>
-    <div class='titles'id="sobre">
-        <h2 class="textInfoSection" >Sobre</h2>
+    <div class='titles' id="sobre">
+        <h2 class="textInfoSection" data-aos="fade-right"  data-aos-duration="1500">Sobre</h2>
     </div>
     <main class="bigBoxContent">
         <section class="sobreSection">
-            <div class=" sobreInfo">
+            <div class=" sobreInfo"  
+            data-aos="fade-right" 
+            data-aos-offset="200" 
+            data-aos-easing="ease-in-sine"
+            data-aos-duration="1000"
+            >
                 <h2>Sobre Mim:</h2>
                 <br>
                 <p>
                     Muito prazer, me chamo Alex. Tenho 26 anos. Sou do estado do Amapá mas resido em Brasilia há alguns
-                    anos. Minha paixão pela tecnologia e pela programação me fez mudar de área e me trouxe até aqui.
-                    Neste momento, estou estudando muito, cursos em video, tutoriais, artigos e etc...Tudo sobre a área!
+                    anos. 
+                    Minha paixão pela tecnologia e pela programação me fez mudar de área e me trouxe até aqui.
+                    Neste momento, estou estudando muito, cursos em video, tutoriais, artigos e etc... Tudo sobre a área!<br><br>
                     Acredito que durante o dia, são mais de 5 horas entre estudos e treinos em busca da perfeição e do
                     domínio total das ferramentas.
                     Busco por uma vaga como Front-End, garanto que posso fazer a diferença, só preciso de uma
                     oportunidade, não só para contribuir, mas para evoluirmos juntos.
                 </p>
             </div>
-            <div class="sobreImg">
+            <div class="sobreImg"  data-aos="flip-up"  data-aos-offset="100"  data-aos-duration="1500">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/f/f2/Dark_inverted_insertion_sorting.gif"
                     height="200px">
             </div>
         </section>
 
         <div class='titles' id="projetos">
-            <h2 class="textInfoSection">Projetos</h2>
+            <h2 class="textInfoSection" data-aos="fade-right"  data-aos-duration="1500">Projetos</h2>
         </div>
         <br><br>
 
@@ -67,63 +75,71 @@
 
             <div class="boxTextProject">
                 <div class="textProject">
-                    <h2>
+                    <h2 data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom"  data-aos-duration="1300">
                         Meus Projetos
                     </h2>
-                    <p>
-                        Aqui estão alguns projetos para que possam conferir um pouco mais do meu trabalho. Todas as skills utilizadas nos projetos estão, sendo constantemente aprimoradas.
+                    <p data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom"  data-aos-duration="1300">
+                        Aqui estão alguns projetos para que possam conferir um pouco mais do meu trabalho. Todas as
+                        skills utilizadas nos projetos estão, sendo constantemente aprimoradas.
                         Confiram!
                     </p>
                 </div>
                 <div class="boxProject">
-                    <div class="Project"></div>
-                    <div class="Project"></div>
-                    <div class="Project"></div>
-                    <div class="Project"></div>
-                    <div class="Project"></div>
-                    <div class="Project"></div>
+                    <div class="Project" data-aos="flip-left" data-aos-duration="800"></div>
+                    <div class="Project" data-aos="flip-left" data-aos-duration="800"></div>
+                    <div class="Project" data-aos="flip-left" data-aos-duration="800"></div>
+                    <div class="Project" data-aos="flip-left" data-aos-duration="800"></div>
+                    <div class="Project" data-aos="flip-left" data-aos-duration="800"></div>
+                    <div class="Project" data-aos="flip-left" data-aos-duration="800"></div>
                 </div>
 
             </div>
         </section>
 
         <div class='titles' id="skills">
-            <h2 class="textInfoSection">Skills</h2>
+            <h2 class="textInfoSection" data-aos="fade-right"  data-aos-duration="1500">Skills</h2>
         </div>
 
         <section class="skill">
 
             <div class="skillSection">
-                <h2 class="titleSkill">Skill selecionada</h2>
-                <p class="descriptionSkills">Em relação as skills mostradas, estão sendo constantemente aprimoradas apesar de eu já estar bem a vontade em utilizá-las.<br>
-                     Estou aprimorando minha lógica de programação, tanto nas aulas, palestras e artigos, como em projetos pessoais.
+                <h2 class="titleSkill"  data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom"  data-aos-duration="1300">Skill selecionada</h2>
+                <p class="descriptionSkills"  data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom"  data-aos-duration="1400">
+                Em relação as skills mostradas, estão sendo constantemente aprimoradas apesar de eu já estar bem a vontade em utilizá-las.
+                <br>
+                Estou aprimorando minha lógica de programação, tanto nas aulas, palestras e artigos, como em
+                projetos pessoais.
                 </p>
                 <div class="boxSkillsIcons">
-                    <div class="boxIcon">
+                    <div class="boxIcon"  data-aos="flip-left" data-aos-duration="800">
                         <img src="imgSkills/icons8-html5-100.png" alt="">
                     </div>
-                    <div class="boxIcon">
+                    <div class="boxIcon"  data-aos="flip-left" data-aos-duration="800">
                         <img style="height: 120px;" src="imgSkills/icons8-css3-100.png" alt="">
                     </div>
-                    <div class="boxIcon">
+                    <div class="boxIcon"  data-aos="flip-left" data-aos-duration="800">
                         <img style="height: 110px;" src="imgSkills/icons8-js-150.png" alt="">
                     </div>
-                    <div class="boxIcon">
+                    <div class="boxIcon"  data-aos="flip-left" data-aos-duration="800">
                         <img style="height: 91px;"
                             src="imgSkills/icons8-bootstrap-a-free-and-open-source-css-framework-96.png" alt="">
                     </div>
-                    <div class="boxIcon">
+                    <div class="boxIcon"  data-aos="flip-left" data-aos-duration="800">
                         <img style="height: 97px;" src="imgSkills/icons8-git-96.png" alt="">
                     </div>
-                    <div class="boxIcon">
+                    <div class="boxIcon"  data-aos="flip-left" data-aos-duration="800">
                         <img style="height: 100px;"
                             src="imgSkills/icons8-react-a-javascript-library-for-building-user-interfaces-96.png"
                             alt="">
                     </div>
-                    <div class="boxIcon">
+                    <div class="boxIcon"  data-aos="flip-left" data-aos-duration="800">
                         <img style="height: 98px;" src="imgSkills/icons8-responsive-design-64.png" alt="">
                     </div>
-                    <div class="boxIcon">
+                    <div class="boxIcon"  data-aos="flip-left" data-aos-duration="800">
                         <img style="height: 120px;" src="imgSkills/icons8-mais-128.png" alt="">
                     </div>
                 </div>
@@ -135,6 +151,10 @@
 
 
     <script type="module" src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 
 </html>
